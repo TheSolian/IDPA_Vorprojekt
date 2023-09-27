@@ -12,7 +12,7 @@ function App() {
       <Routes>
         <Route path='/' element={<Layout />}>
           <Route index element={<HomePage />} />
-          <Route path='costumer/:id' element={<CostumerPage />} />
+          <Route path='customer/:id' element={<CostumerPage />} />
         </Route>
         <Route path='/login' element={<AuthLayout />}>
           <Route index element={<LoginPage />} />
